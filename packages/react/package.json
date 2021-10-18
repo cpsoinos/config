@@ -1,0 +1,26 @@
+{
+  "name": "@primarykids/eslint-config-react",
+  "version": "0.0.0",
+  "description": "React ESLint config",
+  "author": "Corey Psoinos <cpsoinos@primary.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "7.32.0"
+  }
+}

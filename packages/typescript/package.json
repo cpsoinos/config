@@ -1,0 +1,29 @@
+{
+  "name": "@primarykids/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "TypeScript ESLint config",
+  "author": "Corey Psoinos <cpsoinos@primary.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-typescript-sort-keys": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "7.32.0",
+    "typescript": "4.4.3"
+  }
+}

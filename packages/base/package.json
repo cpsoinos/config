@@ -1,5 +1,5 @@
 {
-  "name": "base",
+  "name": "@primarykids/eslint-config-base",
   "version": "0.0.0",
   "description": "Base shared ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",
@@ -17,7 +17,7 @@
     "lint": "eslint . --config=index.js"
   },
   "devDependencies": {
-    "eslint": "^8.0.1",
+    "eslint": "7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
