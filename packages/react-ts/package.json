@@ -1,6 +1,6 @@
 {
   "name": "@primarykids/eslint-config-react-ts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@primarykids/eslint-config-typescript": "^0.0.5"
+    "@primarykids/eslint-config-typescript": "^0.0.6"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.26.1",
