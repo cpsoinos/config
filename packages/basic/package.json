@@ -1,6 +1,6 @@
 {
   "name": "@primarykids/eslint-config-basic",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Base shared ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",
   "homepage": "",
@@ -26,5 +26,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0"
-  }
+  },
+  "gitHead": "fecbcd8226cf2977caeae712cd7b1eb00b3d05a8"
 }
