@@ -1,0 +1,7 @@
+{
+  "name": "@primarykids/eslint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Corey Psoinos <cpsoinos@primary.com>",
+  "license": "MIT"
+}
