@@ -8,7 +8,7 @@ module.exports = {
     },
   },
   extends: [
-    '@primarykids/eslint-config-base',
+    '@primarykids/eslint-config-basic',
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
     'plugin:typescript-sort-keys/recommended', // Sort keys in interfaces and enums
   ],
