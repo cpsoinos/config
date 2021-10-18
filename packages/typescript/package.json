@@ -1,6 +1,6 @@
 {
   "name": "@primarykids/eslint-config-typescript",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "TypeScript ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@primarykids/eslint-config-basic": "^0.0.1"
+    "@primarykids/eslint-config-basic": "^0.0.5"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.1.0",
