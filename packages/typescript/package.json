@@ -1,6 +1,6 @@
 {
   "name": "@primarykids/eslint-config-typescript",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "TypeScript ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@primarykids/eslint-config-basic": "^0.0.8",
+    "@primarykids/eslint-config-basic": "^0.0.9",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "eslint-import-resolver-typescript": "^2.5.0",
