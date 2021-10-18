@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@primarykids/eslint-config-ts',
+    '@primarykids/eslint-config-typescript',
     'plugin:react/recommended', // react-specific rules
     'plugin:react-hooks/recommended',
   ],
