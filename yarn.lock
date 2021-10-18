@@ -932,16 +932,6 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@primarykids/eslint-config-base@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@primarykids/eslint-config-base/-/eslint-config-base-0.0.1.tgz#70b267795f065267e4539cbd0850d3efb7503b55"
-  integrity sha512-h77MKCnQfOQFgOp00dxSyMhXzLJVh34ZMh5TA5Lk72AU8ii5gpoKzxcwbV8lbdy3pEYFFNk4hWN81w0Z684v8w==
-
-"@primarykids/eslint-config-ts@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@primarykids/eslint-config-ts/-/eslint-config-ts-0.0.1.tgz#aac6f66b5b37307f44b32c029079bbd50c360f98"
-  integrity sha512-+oB7UR+T98PUL8YjenolvSzAT7dqa2o/EcB+G3yz64Fe9sykqEysGzgk79qQCE8oI4/iaNht6C2o2HvVE/PM3A==
-
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
