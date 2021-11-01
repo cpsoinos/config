@@ -9,9 +9,9 @@
   "files": [
     "index.js"
   ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.yarnpkg.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimaryKids/eslint-config.git"
   },
   "scripts": {
     "lint": "eslint . --config=index.js"
@@ -26,6 +26,5 @@
   "peerDependencies": {
     "eslint": "^7.32.0",
     "typescript": "^4.4.3"
-  },
-  "gitHead": "de47f111fa17693dfb9f48e994cc15c21f59ca52"
+  }
 }
