@@ -1,6 +1,6 @@
 {
   "name": "@primarykids/eslint-config-base",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Base shared ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",
   "homepage": "",
@@ -16,6 +16,5 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "dependencies": {},
   "gitHead": "a3b4c8e5067f712bc6e2ffd0f48758a988c7d5d2"
 }
