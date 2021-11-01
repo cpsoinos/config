@@ -34,4 +34,9 @@ module.exports = {
     'no-use-before-define': 'off',
   },
   plugins: ['jest', 'import', 'prettier'],
+  settings: {
+    jest: {
+      version: require('jest/package.json').version,
+    },
+  },
 }
