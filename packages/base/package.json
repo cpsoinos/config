@@ -1,5 +1,5 @@
 {
-  "name": "@primarykids/eslint-config-basic",
+  "name": "@primarykids/eslint-config-base",
   "version": "0.0.9",
   "description": "Base shared ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",
@@ -16,16 +16,6 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "dependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.2.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-standard": "^5.0.0"
-  },
+  "dependencies": {},
   "gitHead": "a3b4c8e5067f712bc6e2ffd0f48758a988c7d5d2"
 }

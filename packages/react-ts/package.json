@@ -22,7 +22,7 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "peerDependencies": {
-    "eslint": "7.32.0"
+    "eslint": "^7.32.0"
   },
   "gitHead": "a3b4c8e5067f712bc6e2ffd0f48758a988c7d5d2"
 }

@@ -17,15 +17,15 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@primarykids/eslint-config-basic": "^0.0.9",
+    "@primarykids/eslint-config-base": "^0.0.9",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-typescript-sort-keys": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "7.32.0",
-    "typescript": "4.4.3"
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
   },
   "gitHead": "a3b4c8e5067f712bc6e2ffd0f48758a988c7d5d2"
 }
