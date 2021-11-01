@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
@@ -19,6 +19,6 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish"
   }
 }
