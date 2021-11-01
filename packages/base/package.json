@@ -16,5 +16,5 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "gitHead": "3d8890f006913be01c67a6dfadd81610d9f11ceb"
+  "gitHead": "de47f111fa17693dfb9f48e994cc15c21f59ca52"
 }
