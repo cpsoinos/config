@@ -1,6 +1,5 @@
 {
   "name": "@primarykids/eslint-config",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
