@@ -32,3 +32,11 @@ module.exports = {
   ],
 }
 ```
+
+## Publishing
+
+To publish new versions to the Github Package Registry using `lerna`, run
+
+```bash
+yarn publish
+```
