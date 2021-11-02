@@ -1,0 +1,32 @@
+{
+  "name": "@primarykids/prettier-config",
+  "version": "0.0.17",
+  "description": "Prettier config",
+  "author": "Corey Psoinos <cpsoinos@primary.com>",
+  "homepage": "https://github.com/PrimaryKids/eslint-config#readme",
+  "license": "ISC",
+  "main": "lib/prettier-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimaryKids/eslint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/PrimaryKids/eslint-config/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
