@@ -3,6 +3,7 @@ module.exports = {
     '@primarykids/eslint-config-typescript',
     'plugin:react/recommended', // react-specific rules
     'plugin:react-hooks/recommended',
+    'prettier', // must be last
   ],
   env: {
     browser: 1,

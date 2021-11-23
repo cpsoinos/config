@@ -11,6 +11,7 @@ module.exports = {
     '@primarykids/eslint-config-base',
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
     'plugin:typescript-sort-keys/recommended', // Sort keys in interfaces and enums
+    'prettier', // must be last
   ],
   env: {
     jest: true,

@@ -11,7 +11,6 @@ module.exports = {
     'standard', // https://standardjs.com style guide
     'eslint:recommended',
     'plugin:jest/recommended', // rules for test files
-    'prettier',
   ],
   env: {
     jest: true,
@@ -33,7 +32,7 @@ module.exports = {
     camelcase: 'off',
     'no-use-before-define': 'off',
   },
-  plugins: ['jest', 'import', 'prettier'],
+  plugins: ['jest', 'import'],
   settings: {
     jest: {
       version: require('jest/package.json').version,
