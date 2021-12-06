@@ -22,7 +22,7 @@
     "@typescript-eslint/parser": "^5.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-typescript-sort-keys": "^2.0.0"
+    "eslint-plugin-typescript-sort-keys": "^2.1.0"
   },
   "peerDependencies": {
     "eslint": "^7.32.0",
