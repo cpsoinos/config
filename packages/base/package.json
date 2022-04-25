@@ -1,5 +1,5 @@
 {
-  "name": "@primarykids/eslint-config-base",
+  "name": "@coreyander/eslint-config-base",
   "version": "0.2.4",
   "description": "Base shared ESLint config",
   "author": "Corey Psoinos <cpsoinos@primary.com>",

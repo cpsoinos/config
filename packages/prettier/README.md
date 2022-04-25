@@ -1,4 +1,4 @@
-# @primarykids/prettier-config
+# @coreyander/prettier-config
 
 A shared configuration file for [Prettier](https://prettier.io/).
 
@@ -10,7 +10,7 @@ See [Authenticating with a personal access token](https://docs.github.com/en/pac
 ### Install with yarn
 
 ```bash
-yarn add @primarykids/prettier-config -D
+yarn add @coreyander/prettier-config -D
 ```
 
 ### Configuration
@@ -21,14 +21,14 @@ There are several options for configuring Prettier in your application. One is a
 {
   "name": "my-cool-library",
   "version": "9000.0.1",
-  "prettier": "@primarykids/prettier-config"
+  "prettier": "@coreyander/prettier-config"
 }
 ```
 
 If you don’t want to use `package.json`, you can use any of the supported extensions to export a string, e.g. `.prettierrc.json`:
 
 ```json
-"@primarykids/prettier-config"
+"@coreyander/prettier-config"
 ```
 
 For more configuration options, see [Pretter's documentation on sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations).

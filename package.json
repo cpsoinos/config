@@ -1,15 +1,19 @@
 {
-  "name": "@primarykids/eslint-config",
+  "name": "@coreyander/eslint-config",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "release": "lerna publish",
+    "commit": "commit",
     "lint": "eslint --ext .js,.json, --fix ."
   },
   "devDependencies": {
-    "lerna": "^4.0.0",
+    "@changesets/cli": "^2.22.0",
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/prompt-cli": "^16.2.3",
+    "husky": "^7.0.4",
     "typescript": "^4.4.4"
   }
 }
