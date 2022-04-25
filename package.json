@@ -1,5 +1,5 @@
 {
-  "name": "@primarykids/eslint-config",
+  "name": "@coreyander/eslint-config",
   "private": true,
   "workspaces": [
     "packages/*"

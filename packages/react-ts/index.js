@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@primarykids/eslint-config-typescript',
+    '@coreyander/eslint-config-typescript',
     'plugin:react/recommended', // react-specific rules
     'plugin:react-hooks/recommended',
     'prettier', // must be last
