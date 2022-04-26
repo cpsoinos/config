@@ -13,10 +13,6 @@ module.exports = {
     'plugin:typescript-sort-keys/recommended', // Sort keys in interfaces and enums
     'prettier', // must be last
   ],
-  env: {
-    jest: true,
-    'jest/globals': true, // allow jest globals in test files
-  },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
