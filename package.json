@@ -6,7 +6,9 @@
   ],
   "scripts": {
     "commit": "commit",
-    "lint": "eslint --ext .js,.json, --fix ."
+    "lint": "eslint --ext .js,.json, --fix .",
+    "ci:version": "changeset version",
+    "ci:publish": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
