@@ -1,6 +1,5 @@
 {
   "name": "@coreyander/eslint-config",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],

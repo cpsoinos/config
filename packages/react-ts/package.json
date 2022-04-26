@@ -2,7 +2,7 @@
   "name": "@coreyander/eslint-config-react-ts",
   "version": "0.2.4",
   "description": "React ESLint config",
-  "author": "Corey Psoinos <cpsoinos@primary.com>",
+  "author": "Corey Psoinos <corey@anderapps.com>",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
@@ -11,7 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrimaryKids/eslint-config.git"
+    "url": "git+https://github.com/cpsoinos/ander-apps.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "lint": "eslint . --config=index.js"
