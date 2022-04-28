@@ -20,7 +20,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard": "^17.0.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-markdown": "^2.2.1",
