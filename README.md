@@ -27,8 +27,8 @@ pnpm add @coreyander/eslint-config-typescript -D
 ```js
 module.exports = {
   extends: [
-    '@coreyander/eslint-config-typescript', // or '@coreyander/eslint-config-react-ts'
-  ],
+    '@coreyander/eslint-config-typescript' // or '@coreyander/eslint-config-react-ts'
+  ]
 }
 ```
 

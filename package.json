@@ -6,7 +6,8 @@
   "scripts": {
     "commit": "commit",
     "lint": "eslint --ext .js,.ts, --fix .",
-    "format": "prettier --write '**/*.{js,jsx,ts,tsx,vue,yaml,yml,json}'",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
+    "ci:format": "prettier --write --check --no-error-on-unmatched-pattern \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
     "ci:version": "changeset version",
     "ci:publish": "changeset publish",
     "prepare": "husky install"
