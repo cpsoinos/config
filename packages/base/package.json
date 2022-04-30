@@ -30,7 +30,8 @@
     "yaml-eslint-parser": "^0.5.0"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.14.0",
+    "eslint-plugin-n": "^15.2.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

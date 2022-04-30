@@ -4,13 +4,13 @@ module.exports = {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: {
-        parser: '@typescript-eslint/parser',
-      },
-    },
+        parser: '@typescript-eslint/parser'
+      }
+    }
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@coreyander/eslint-config-typescript',
+    '@coreyander/eslint-config-typescript'
   ],
   rules: {
     'vue/max-attributes-per-line': 'off',
@@ -25,8 +25,8 @@ module.exports = {
     'vue/component-tags-order': [
       'error',
       {
-        order: ['script', 'template', 'style'],
-      },
-    ],
-  },
+        order: ['script', 'template', 'style']
+      }
+    ]
+  }
 }
