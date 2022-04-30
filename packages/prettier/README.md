@@ -4,13 +4,22 @@ A shared configuration file for [Prettier](https://prettier.io/).
 
 ## Installation
 
-These packages are published to Github's package registry. A personal access token (PAT) is needed in order to install them into a project.
-See [Authenticating with a personal access token](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-with-a-personal-access-token).
+With `npm`:
 
-### Install with yarn
+```
+npm install @coreyander/prettier-config --save-dev
+```
 
-```bash
+With `yarn`:
+
+```
 yarn add @coreyander/prettier-config -D
+```
+
+With `pnpm`:
+
+```
+pnpm add @coreyander/prettier-config -D
 ```
 
 ### Configuration

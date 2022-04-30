@@ -76,5 +76,3 @@ dist
 
 # IDE
 .idea
-
-*.lerna_backup
