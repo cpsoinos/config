@@ -1,0 +1,64 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+
+env:
+  CI: true
+  PNPM_CACHE_FOLDER: .pnpm-store
+
+jobs:
+  eslint:
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code repository
+        uses: actions/checkout@v2
+
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Cache pnpm modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+
+      - uses: pnpm/action-setup@v2.1.0
+        with:
+          version: 7.0.0-rc.8
+          run_install: true
+
+      - name: ESLint
+        run: pnpm run lint
+
+  prettier:
+    name: Prettier
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          # Make sure the actual branch is checked out when running on pull requests
+          ref: ${{ github.head_ref }}
+          # This is important to fetch the changes to the previous commit
+          fetch-depth: 0
+          # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
+          persist-credentials: false
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.0
+        with:
+          # This part is also where you can pass other options, for example:
+          dry: true # Files wont get changed and the action fails if there are unprettified files.
+          only_changed: true
+          prettier_options: --config .prettierrc --ignore-path .prettierignore --write --check **/*.{js,jsx,ts,tsx,md,mdx,gql,graphql,json,yml,yaml}
+          prettier_version: 2.3.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -7,6 +7,7 @@
     "commit": "commit",
     "lint": "eslint --ext .js,.ts, --fix .",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,vue,yaml,yml,json}'",
+    "ci:format": "prettier --check '**/*.{js,jsx,ts,tsx,vue,yaml,yml,json}'",
     "ci:version": "changeset version",
     "ci:publish": "changeset publish",
     "prepare": "husky install"
@@ -22,6 +23,5 @@
     "husky": "^7.0.4",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"
-  },
-  "prettier": "@coreyander/prettier-config"
+  }
 }
