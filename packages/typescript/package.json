@@ -20,7 +20,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@coreyander/eslint-config-base": "workspace:*",
+    "@coreyander/eslint-config-base": "^0.2.4",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.1.0",
     "eslint-config-prettier": "^8.3.0",
