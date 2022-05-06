@@ -1,5 +1,16 @@
 # @coreyander/eslint-config-typescript
 
+## 0.4.0
+
+### Minor Changes
+
+- 1ec85ef: fix missing eslint-plugin-n dependency in base pkg
+
+### Patch Changes
+
+- Updated dependencies [1ec85ef]
+  - @coreyander/eslint-config-base@0.4.0
+
 ## 0.3.0
 
 ### Minor Changes
