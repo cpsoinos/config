@@ -1,8 +1,6 @@
 {
   "name": "@coreyander/eslint-config",
-  "workspaces": [
-    "packages/*"
-  ],
+  "packageManager": "pnpm@7.0.1",
   "scripts": {
     "commit": "commit",
     "lint": "eslint --ext .js,.ts, --fix .",
