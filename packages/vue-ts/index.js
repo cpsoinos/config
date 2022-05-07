@@ -21,6 +21,7 @@ module.exports = {
   },
   rules: {
     'vue/no-v-html': 'off',
+    'vue/multi-word-component-names': 'off',
     'vue/component-tags-order': [
       'error',
       {
