@@ -1,4 +1,8 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module'
+  },
   overrides: [
     {
       files: ['*.vue'],
@@ -13,14 +17,7 @@ module.exports = {
     '@coreyander/eslint-config-typescript'
   ],
   rules: {
-    'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
-    'vue/require-prop-types': 'off',
-    'vue/require-default-prop': 'off',
-    'vue/multi-word-component-names': 'off',
-
-    // reactivity transform
-    'vue/no-setup-props-destructure': 'off',
 
     'vue/component-tags-order': [
       'error',
