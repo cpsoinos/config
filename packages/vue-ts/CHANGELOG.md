@@ -1,5 +1,11 @@
 # @coreyander/eslint-config-vue-ts
 
+## 0.4.0
+
+### Minor Changes
+
+- c8c559a: enable vue/setup-compiler-macros
+
 ## 0.3.1
 
 ### Patch Changes
