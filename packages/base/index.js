@@ -49,8 +49,7 @@ module.exports = {
     'no-console': 'off',
     'no-process-env': 0,
     'no-var': 'error', // use let or const instead of var
-    camelcase: 'off',
-    'no-use-before-define': 'off'
+    camelcase: 'off'
   },
   plugins: ['import']
 }
