@@ -1,5 +1,11 @@
 # @coreyander/eslint-config-react-ts
 
+## 0.5.1
+
+### Patch Changes
+
+- @coreyander/eslint-config-typescript@0.5.1
+
 ## 0.5.0
 
 ### Minor Changes

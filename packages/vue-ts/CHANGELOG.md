@@ -1,5 +1,12 @@
 # @coreyander/eslint-config-vue-ts
 
+## 0.3.1
+
+### Patch Changes
+
+- 350d239: include react config only when react is detected
+  - @coreyander/eslint-config-typescript@0.5.1
+
 ## 0.3.0
 
 ### Minor Changes

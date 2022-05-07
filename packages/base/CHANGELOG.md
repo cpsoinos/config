@@ -1,5 +1,11 @@
 # @coreyander/eslint-config-base
 
+## 0.5.1
+
+### Patch Changes
+
+- 350d239: include react config only when react is detected
+
 ## 0.5.0
 
 ### Minor Changes
