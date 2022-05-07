@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "@coreyander/eslint-config-typescript": "workspace:*",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
