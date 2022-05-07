@@ -1,6 +1,6 @@
 {
   "name": "@coreyander/eslint-config-base",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Base shared ESLint config",
   "author": "Corey Psoinos <corey@anderapps.com>",
   "homepage": "",
