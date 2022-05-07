@@ -1,5 +1,11 @@
 # @coreyander/eslint-config-typescript
 
+## 0.4.1
+
+### Patch Changes
+
+- fc3e158: dependency management
+
 ## 0.4.0
 
 ### Minor Changes
