@@ -16,9 +16,11 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     '@coreyander/eslint-config-typescript'
   ],
+  env: {
+    'vue/setup-compiler-macros': true
+  },
   rules: {
     'vue/no-v-html': 'off',
-
     'vue/component-tags-order': [
       'error',
       {
