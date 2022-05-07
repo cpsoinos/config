@@ -1,5 +1,11 @@
 # @coreyander/eslint-config-base
 
+## 0.5.2
+
+### Patch Changes
+
+- 49e05df: rule tweaks
+
 ## 0.5.1
 
 ### Patch Changes

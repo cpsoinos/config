@@ -1,5 +1,13 @@
 # @coreyander/eslint-config
 
+## 0.1.3
+
+### Patch Changes
+
+- Updated dependencies [49e05df]
+  - @coreyander/eslint-config-vue-ts@0.4.1
+  - @coreyander/eslint-config-react-ts@0.5.2
+
 ## 0.1.2
 
 ### Patch Changes
