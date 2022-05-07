@@ -1,5 +1,12 @@
 # @coreyander/eslint-config-vue-ts
 
+## 0.4.1
+
+### Patch Changes
+
+- 49e05df: rule tweaks
+  - @coreyander/eslint-config-typescript@0.5.2
+
 ## 0.4.0
 
 ### Minor Changes

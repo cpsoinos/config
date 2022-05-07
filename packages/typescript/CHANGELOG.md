@@ -1,5 +1,12 @@
 # @coreyander/eslint-config-typescript
 
+## 0.5.2
+
+### Patch Changes
+
+- Updated dependencies [49e05df]
+  - @coreyander/eslint-config-base@0.5.2
+
 ## 0.5.1
 
 ### Patch Changes
