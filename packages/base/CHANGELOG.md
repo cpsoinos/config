@@ -1,5 +1,11 @@
 # @coreyander/eslint-config-base
 
+## 0.5.0
+
+### Minor Changes
+
+- a5b8d1c: fix dependency refs on publish
+
 ## 0.4.0
 
 ### Minor Changes

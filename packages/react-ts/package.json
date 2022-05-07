@@ -1,6 +1,6 @@
 {
   "name": "@coreyander/eslint-config-react-ts",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "React ESLint config",
   "author": "Corey Psoinos <corey@anderapps.com>",
   "homepage": "",

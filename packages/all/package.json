@@ -1,6 +1,6 @@
 {
   "name": "@coreyander/eslint-config",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "My preferred ESLint configuration for Vue, React, and TypeScript projects",
   "keywords": [],
   "license": "MIT",
