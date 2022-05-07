@@ -45,6 +45,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
+      - name: Install dependencies
+        run: pnpm install
+
       - name: create and publish versions
         uses: changesets/action@v1
         with:
