@@ -1,6 +1,6 @@
 {
   "name": "@coreyander/eslint-config-vue-ts",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Vue + TS ESLint config",
   "main": "index.js",
   "author": "Corey Psoinos <corey@anderapps.com>",
