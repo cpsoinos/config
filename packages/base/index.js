@@ -49,7 +49,12 @@ module.exports = {
     'no-console': 'off',
     'no-process-env': 0,
     'no-var': 'error', // use let or const instead of var
-    camelcase: 'off'
+    camelcase: 'off',
+
+    // import
+    'import/order': 'error',
+    'import/first': 'error',
+    'import/no-unresolved': 'off'
   },
   plugins: ['import']
 }
