@@ -1,5 +1,16 @@
 # @coreyander/eslint-config-vue-ts
 
+## 0.3.0
+
+### Minor Changes
+
+- a5b8d1c: fix dependency refs on publish
+
+### Patch Changes
+
+- Updated dependencies [a5b8d1c]
+  - @coreyander/eslint-config-typescript@0.5.0
+
 ## 0.2.1
 
 ### Patch Changes
