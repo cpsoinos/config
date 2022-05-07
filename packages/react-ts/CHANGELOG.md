@@ -1,5 +1,13 @@
 # @coreyander/eslint-config-react-ts
 
+## 0.4.1
+
+### Patch Changes
+
+- fc3e158: dependency management
+- Updated dependencies [fc3e158]
+  - @coreyander/eslint-config-typescript@0.4.1
+
 ## 0.4.0
 
 ### Minor Changes
