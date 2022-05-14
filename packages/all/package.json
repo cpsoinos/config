@@ -5,10 +5,13 @@
   "keywords": [],
   "license": "MIT",
   "author": "Corey Psoinos <corey@anderapps.com> (https://github.com/cpsoinos/)",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
-    "index.js"
+    "dist"
   ],
+  "scripts": {
+    "prepublish": "pnpx tsup index.js"
+  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
