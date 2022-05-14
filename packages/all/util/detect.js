@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 // Adapted from eslint-plugin-react/lib/util/version
 const fs = require('fs')
 const path = require('path')

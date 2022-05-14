@@ -1,4 +1,6 @@
-const detect = require('./util/detect');
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+const detect = require('./util/detect')
 
 const extendConfig = ['@coreyander/eslint-config-typescript', 'prettier']
 
