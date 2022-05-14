@@ -1,5 +1,11 @@
 # @coreyander/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- 2f3f1a3: fix: build package before publishing
+
 ## 1.0.0
 
 ### Major Changes
