@@ -1,5 +1,17 @@
 # @coreyander/eslint-config
 
+## 1.0.0
+
+### Major Changes
+
+- fb206a1: separate typescript config from vue and react configs
+
+### Patch Changes
+
+- Updated dependencies [fb206a1]
+  - @coreyander/eslint-config-react@1.0.0
+  - @coreyander/eslint-config-vue@1.0.0
+
 ## 0.1.3
 
 ### Patch Changes
