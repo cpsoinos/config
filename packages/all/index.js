@@ -1,12 +1,13 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { testReactVersion } = require('eslint-plugin-react/lib/util/version')
+const detect = require('./util/detect');
 
-const extendConfig = ['@coreyander/eslint-config-vue-ts', 'prettier']
+const extendConfig = ['@coreyander/eslint-config-typescript', 'prettier']
 
 try {
-  const reactVersion = testReactVersion()
-  if (reactVersion !== '999.999.999') {
-    extendConfig.unshift('@coreyander/eslint-config-react-ts')
+  if (detect('react')) {
+    extendConfig.splice(1, 1, '@coreyander/eslint-config-react')
+  }
+  if (detect('vue')) {
+    extendConfig.splice(1, 1, '@coreyander/eslint-config-vue')
   }
 } catch (err) {
   // ignore

@@ -14,7 +14,6 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@coreyander/eslint-config-typescript'
   ],
   env: {
     'vue/setup-compiler-macros': true

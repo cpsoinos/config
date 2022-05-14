@@ -1,7 +1,7 @@
 {
-  "name": "@coreyander/eslint-config-vue-ts",
+  "name": "@coreyander/eslint-config-vue",
   "version": "0.4.1",
-  "description": "Vue + TS ESLint config",
+  "description": "Vue ESLint config",
   "main": "index.js",
   "author": "Corey Psoinos <corey@anderapps.com>",
   "license": "ISC",
@@ -19,7 +19,6 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@coreyander/eslint-config-typescript": "workspace:*",
     "eslint-plugin-vue": "^8.7.1"
   },
   "devDependencies": {
