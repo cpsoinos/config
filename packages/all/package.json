@@ -13,8 +13,9 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@coreyander/eslint-config-react-ts": "workspace:*",
-    "@coreyander/eslint-config-vue-ts": "workspace:*",
+    "@coreyander/eslint-config-react": "workspace:*",
+    "@coreyander/eslint-config-typescript": "workspace:*",
+    "@coreyander/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.1.0",
     "eslint-config-prettier": "^8.3.0",
@@ -29,6 +30,7 @@
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-vue": "^8.7.1",
     "eslint-plugin-yml": "^0.14.0",
+    "resolve": "^1.22.0",
     "yaml-eslint-parser": "^0.5.0"
   },
   "devDependencies": {
