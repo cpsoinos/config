@@ -1,5 +1,15 @@
 # @coreyander/eslint-config
 
+## 1.1.0
+
+### Minor Changes
+
+- 841f653: remove build step and conditional extends
+
+### Patch Changes
+
+- 841f653: fix: build package before publishing
+
 ## 1.0.1
 
 ### Patch Changes
