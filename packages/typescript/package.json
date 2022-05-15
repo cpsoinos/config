@@ -2,7 +2,7 @@
   "name": "@cpsoinos/eslint-config-typescript",
   "version": "0.0.0",
   "description": "TypeScript ESLint config",
-  "author": "Corey Psoinos <corey@anderapps.com>",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",

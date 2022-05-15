@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Vue + TS ESLint config",
   "main": "index.js",
-  "author": "Corey Psoinos <corey@anderapps.com>",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "license": "ISC",
   "files": [
     "index.js"

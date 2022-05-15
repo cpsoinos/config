@@ -2,7 +2,7 @@
   "name": "@cpsoinos/prettier-config",
   "version": "0.0.0",
   "description": "Prettier config",
-  "author": "Corey Psoinos <corey@anderapps.com>",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "homepage": "https://github.com/PrimaryKids/eslint-config#readme",
   "license": "ISC",
   "main": "index.js",
