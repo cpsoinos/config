@@ -1,5 +1,12 @@
 # @coreyander/eslint-config
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies [0641fda]
+  - @coreyander/eslint-config-react@2.0.0
+
 ## 1.1.0
 
 ### Minor Changes

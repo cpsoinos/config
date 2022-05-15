@@ -1,5 +1,11 @@
 # @coreyander/eslint-config-react-ts
 
+## 2.0.0
+
+### Major Changes
+
+- 0641fda: remove eslint-plugin-react-hooks
+
 ## 1.0.0
 
 ### Major Changes
