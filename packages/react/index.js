@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:react/recommended', // react-specific rules
-    'plugin:react-hooks/recommended'
+    'plugin:react/recommended' // react-specific rules
   ],
   env: {
     browser: 1
