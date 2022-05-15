@@ -1,19 +1,9 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-
-const detect = require('./util/detect')
-
-const extendConfig = ['@coreyander/eslint-config-typescript', 'prettier']
-
-try {
-  if (detect('react')) {
-    extendConfig.splice(1, 1, '@coreyander/eslint-config-react')
-  }
-  if (detect('vue')) {
-    extendConfig.splice(1, 1, '@coreyander/eslint-config-vue')
-  }
-} catch (err) {
-  // ignore
-}
+const extendConfig = [
+  '@coreyander/eslint-config-typescript',
+  '@coreyander/eslint-config-react',
+  '@coreyander/eslint-config-vue',
+  'prettier'
+]
 
 module.exports = {
   extends: extendConfig
