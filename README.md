@@ -1,4 +1,4 @@
-# @coreyander/eslint-config
+# @cpsoinos/eslint-config
 
 A shared set of opinionated configuration files.
 
@@ -7,19 +7,19 @@ A shared set of opinionated configuration files.
 With `npm`:
 
 ```
-npm install @coreyander/eslint-config-typescript --save-dev
+npm install @cpsoinos/eslint-config-typescript --save-dev
 ```
 
 With `yarn`:
 
 ```
-yarn add @coreyander/eslint-config-typescript -D
+yarn add @cpsoinos/eslint-config-typescript -D
 ```
 
 With `pnpm`:
 
 ```
-pnpm add @coreyander/eslint-config-typescript -D
+pnpm add @cpsoinos/eslint-config-typescript -D
 ```
 
 ### Configure `.eslintrc.js`
@@ -27,7 +27,7 @@ pnpm add @coreyander/eslint-config-typescript -D
 ```js
 module.exports = {
   extends: [
-    '@coreyander/eslint-config-typescript' // or '@coreyander/eslint-config-react-ts'
+    '@cpsoinos/eslint-config-typescript' // or '@cpsoinos/eslint-config-react-ts'
   ]
 }
 ```

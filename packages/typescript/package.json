@@ -1,6 +1,6 @@
 {
-  "name": "@coreyander/eslint-config-typescript",
-  "version": "0.5.2",
+  "name": "@cpsoinos/eslint-config-typescript",
+  "version": "0.0.0",
   "description": "TypeScript ESLint config",
   "author": "Corey Psoinos <corey@anderapps.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@coreyander/eslint-config-base": "workspace:*",
+    "@cpsoinos/eslint-config-base": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.1.0",
     "eslint-import-resolver-typescript": "^2.5.0",

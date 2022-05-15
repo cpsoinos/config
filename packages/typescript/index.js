@@ -8,7 +8,7 @@ module.exports = {
     }
   },
   extends: [
-    '@coreyander/eslint-config-base',
+    '@cpsoinos/eslint-config-base',
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
     'plugin:typescript-sort-keys/recommended', // Sort keys in interfaces and enums
     'prettier' // must be last

@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@coreyander/eslint-config-typescript',
+    '@cpsoinos/eslint-config-typescript',
     'plugin:react/recommended', // react-specific rules
     'plugin:react-hooks/recommended'
   ],
