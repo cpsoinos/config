@@ -9,9 +9,6 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "prepublish": "pnpx tsup index.js"
-  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
