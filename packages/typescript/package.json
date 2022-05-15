@@ -23,6 +23,7 @@
     "@cpsoinos/eslint-config-base": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.1.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0"
   },

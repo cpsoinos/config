@@ -78,12 +78,14 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.21.0
       '@typescript-eslint/parser': ^5.1.0
       eslint: ^8.14.0
+      eslint-config-prettier: ^8.5.0
       eslint-import-resolver-typescript: ^2.5.0
       eslint-plugin-typescript-sort-keys: ^2.1.0
     dependencies:
       '@cpsoinos/eslint-config-base': link:../base
       '@typescript-eslint/eslint-plugin': 5.22.0_as7czvxgrvaa35lzxztolpnp5a
       '@typescript-eslint/parser': 5.22.0_eslint@8.14.0
+      eslint-config-prettier: 8.5.0_eslint@8.14.0
       eslint-import-resolver-typescript: 2.7.1_eslint@8.14.0
       eslint-plugin-typescript-sort-keys: 2.1.0_as7czvxgrvaa35lzxztolpnp5a
     devDependencies:
@@ -1367,6 +1369,15 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
     dev: true
+
+  /eslint-config-prettier/8.5.0_eslint@8.14.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.14.0
+    dev: false
 
   /eslint-config-standard/17.0.0_csxqpghp2u36zpehgl7g6fmctq:
     resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
