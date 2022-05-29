@@ -1,3 +1,3 @@
 {
-  "extends": "@cpsoinos"
+  "extends": "@cpsoinos/eslint-config-base"
 }
