@@ -1,5 +1,11 @@
 # @cpsoinos/eslint-config-typescript
 
+## 0.2.0
+
+### Minor Changes
+
+- 03e4efb: remove jsx support from typescript parser options
+
 ## 0.1.0
 
 ### Minor Changes

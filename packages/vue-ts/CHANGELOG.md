@@ -1,5 +1,12 @@
 # @cpsoinos/eslint-config-vue-ts
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [03e4efb]
+  - @cpsoinos/eslint-config-typescript@0.2.0
+
 ## 0.0.2
 
 ### Patch Changes
