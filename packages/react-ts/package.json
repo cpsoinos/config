@@ -1,6 +1,6 @@
 {
   "name": "@cpsoinos/eslint-config-react-ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React ESLint config",
   "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "homepage": "",
