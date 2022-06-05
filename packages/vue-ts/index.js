@@ -13,8 +13,9 @@ module.exports = {
     }
   ],
   extends: [
+    '@cpsoinos/eslint-config-typescript',
     'plugin:vue/vue3-recommended',
-    '@cpsoinos/eslint-config-typescript'
+    'prettier' // must be last
   ],
   env: {
     'vue/setup-compiler-macros': true
