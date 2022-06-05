@@ -1,5 +1,15 @@
 # @cpsoinos/eslint-config-react-ts
 
+## 0.2.0
+
+### Minor Changes
+
+- 8103ed5: extend 'prettier' last so it disables the appropriate rules
+
+### Patch Changes
+
+- @cpsoinos/eslint-config-typescript@0.2.2
+
 ## 0.1.2
 
 ### Patch Changes
