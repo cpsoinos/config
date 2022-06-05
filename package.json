@@ -19,7 +19,7 @@
     "@cpsoinos/eslint-config-base": "workspace:*",
     "@cpsoinos/prettier-config": "workspace:*",
     "eslint": "^8.14.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"
   }
