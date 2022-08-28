@@ -27,6 +27,6 @@
     "url": "https://github.com/PrimaryKids/eslint-config/issues"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "2.7.1"
   }
 }
