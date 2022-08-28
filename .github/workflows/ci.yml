@@ -47,7 +47,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: ESLint
         run: pnpm nx affected --target=lint --parallel
@@ -91,7 +91,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Prettier
         run: pnpm nx affected --target=ci:format --parallel
