@@ -1,5 +1,12 @@
 # @cpsoinos/eslint-config-react-ts
 
+## 0.2.1
+
+### Patch Changes
+
+- Updated dependencies [c782622]
+  - @cpsoinos/eslint-config-typescript@0.2.3
+
 ## 0.2.0
 
 ### Minor Changes
