@@ -10,9 +10,9 @@ importers:
       '@commitlint/prompt-cli': 17.2.0
       '@cpsoinos/prettier-config': workspace:*
       '@nrwl/nx-cloud': latest
-      '@nrwl/workspace': 15.1.0
+      '@nrwl/workspace': 15.1.1
       husky: 8.0.2
-      nx: 15.1.0
+      nx: 15.1.1
       prettier: 2.7.1
       ts-node: 10.9.1
       typescript: 4.9.3
@@ -23,9 +23,9 @@ importers:
       '@commitlint/prompt-cli': 17.2.0
       '@cpsoinos/prettier-config': link:packages/prettier
       '@nrwl/nx-cloud': 15.0.2
-      '@nrwl/workspace': 15.1.0_hdqrwt4blhg7bmmchur5eywyva
+      '@nrwl/workspace': 15.1.1_hdqrwt4blhg7bmmchur5eywyva
       husky: 8.0.2
-      nx: 15.1.0
+      nx: 15.1.1
       prettier: 2.7.1
       ts-node: 10.9.1_yoaxs6y6qrreabm3aik754ygbm
       typescript: 4.9.3
@@ -1135,37 +1135,37 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nrwl/cli/15.1.0:
-    resolution: {integrity: sha512-07KTYbh0YC3DmOTN1bFOQVlzrUQwsmNDR3IfxxDuhMlsBlpDIN/fFcIPy4tQ16EOQjWSrHxeP/C30KLIBtNYLw==}
+  /@nrwl/cli/15.1.1:
+    resolution: {integrity: sha512-rfpIi/zWpL6YyW7Z10oc65FwePvFP0uo7L1f32wMtC25dHh12YD3OS24VniCOrFYWjHNIu7X7hdHx2lcDXPRBg==}
     dependencies:
-      nx: 15.1.0
+      nx: 15.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
       - debug
     dev: true
 
-  /@nrwl/devkit/15.1.0_nx@15.1.0+typescript@4.9.3:
-    resolution: {integrity: sha512-dhENBHsxKozo/wDaGemr6DITcxnbgPeIMRJ8wWTh/yu9pxT2KwvC+gBfm5eGr7kmNJVcuX/IxnHRc0BEo9EW6Q==}
+  /@nrwl/devkit/15.1.1_nx@15.1.1+typescript@4.9.3:
+    resolution: {integrity: sha512-Dh26LjMh/BMmoOja2WSSVSAaVDI59qIg46dZmfU7fcu+Y4FFMor3PMAAo5QVbfLasbx4HG6vrvQlhuwWnXm4hw==}
     peerDependencies:
       nx: '>= 14 <= 16'
     dependencies:
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.3
       ejs: 3.1.8
       ignore: 5.2.0
-      nx: 15.1.0
+      nx: 15.1.1
       semver: 7.3.4
       tslib: 2.4.0
     transitivePeerDependencies:
       - typescript
     dev: true
 
-  /@nrwl/jest/15.1.0_ad6mxu6ovjhwnmux2rw6axpty4:
-    resolution: {integrity: sha512-+Hblbei2Fwr7xiuvdHfYpKuknX/8pR5WAGsdi9Bfr1unYRddc47sgTtzvVS2rQmKbykI0i+9aIP4xto2IdSIYA==}
+  /@nrwl/jest/15.1.1_zkmhak4i3isemfbufzbo3ahqke:
+    resolution: {integrity: sha512-NRQcEy4lcEjHrFmv6UR2gg3RviLNRiYgdqUiboSo0tD2fIqlLEz7m1T/l54f1/Dt0GWeVhzfQGk8WJKkbjZHlQ==}
     dependencies:
       '@jest/reporters': 28.1.1
       '@jest/test-result': 28.1.1
-      '@nrwl/devkit': 15.1.0_nx@15.1.0+typescript@4.9.3
+      '@nrwl/devkit': 15.1.1_nx@15.1.1+typescript@4.9.3
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.3
       chalk: 4.1.0
       dotenv: 10.0.0
@@ -1184,18 +1184,18 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/linter/15.1.0_rouvlsnkba5vhqgc4nqmdr2in4:
-    resolution: {integrity: sha512-knE0rZ1fZP1uPTUfbR8FAOwLhOewr4EeSItbygTrKnBCFJwXsQWIe73cuiIy+GF1eZLwj3emP1Vc0CVXklQ81g==}
+  /@nrwl/linter/15.1.1_rouvlsnkba5vhqgc4nqmdr2in4:
+    resolution: {integrity: sha512-FQrek2JVpMo6iVVLm4rhGVIyBRWtGJ0Htsd9KM7uOXZd75jKDFVHtWY/HlKcvfhlJ/0+ZGBArKiJjFlbD4lYpw==}
     peerDependencies:
       eslint: ^8.0.0
     peerDependenciesMeta:
       eslint:
         optional: true
     dependencies:
-      '@nrwl/devkit': 15.1.0_nx@15.1.0+typescript@4.9.3
-      '@nrwl/jest': 15.1.0_ad6mxu6ovjhwnmux2rw6axpty4
+      '@nrwl/devkit': 15.1.1_nx@15.1.1+typescript@4.9.3
+      '@nrwl/jest': 15.1.1_zkmhak4i3isemfbufzbo3ahqke
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.3
-      nx: 15.1.0
+      nx: 15.1.1
       tmp: 0.2.1
       tslib: 2.4.0
     transitivePeerDependencies:
@@ -1225,28 +1225,28 @@ packages:
       - debug
     dev: true
 
-  /@nrwl/tao/15.1.0:
-    resolution: {integrity: sha512-uEBmCDf4GMQ33Mkkl43gnVaJvFcIC8J5vhNknio7nQAsrSxUE9LCBEMpN5rHPlbAZ1WL9DRnnQcZrBXBYAlrPw==}
+  /@nrwl/tao/15.1.1:
+    resolution: {integrity: sha512-FCmR9Rq+Nza7G5lXYPzYgVfYz2nI/7yDhTaenwBOyoxYixppfWTEx25mpsPtF38x996b/wp6gREuC4OPov7NWQ==}
     hasBin: true
     dependencies:
-      nx: 15.1.0
+      nx: 15.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
       - debug
     dev: true
 
-  /@nrwl/workspace/15.1.0_hdqrwt4blhg7bmmchur5eywyva:
-    resolution: {integrity: sha512-I6cKVHMntlo1ehaT6g8EX+NdpkQRiD4GKyqlnLXs5Y5qbQ9KZdIWp1QjmGUaxej5Q+J/V7tTqGediQiHT8MH8g==}
+  /@nrwl/workspace/15.1.1_hdqrwt4blhg7bmmchur5eywyva:
+    resolution: {integrity: sha512-YI5GApBJzltOIz6v58tMvBL3FLQ1z++Akv52WzHybUOski2uKT7FbZwmOebJ2nGF0gPf+J4VOyRFK8pHum/SqQ==}
     peerDependencies:
       prettier: ^2.6.2
     peerDependenciesMeta:
       prettier:
         optional: true
     dependencies:
-      '@nrwl/devkit': 15.1.0_nx@15.1.0+typescript@4.9.3
-      '@nrwl/jest': 15.1.0_ad6mxu6ovjhwnmux2rw6axpty4
-      '@nrwl/linter': 15.1.0_rouvlsnkba5vhqgc4nqmdr2in4
+      '@nrwl/devkit': 15.1.1_nx@15.1.1+typescript@4.9.3
+      '@nrwl/jest': 15.1.1_zkmhak4i3isemfbufzbo3ahqke
+      '@nrwl/linter': 15.1.1_rouvlsnkba5vhqgc4nqmdr2in4
       '@parcel/watcher': 2.0.4
       chalk: 4.1.0
       chokidar: 3.5.3
@@ -1261,7 +1261,7 @@ packages:
       ignore: 5.2.0
       minimatch: 3.0.5
       npm-run-path: 4.0.1
-      nx: 15.1.0
+      nx: 15.1.1
       open: 8.4.0
       prettier: 2.7.1
       rxjs: 6.6.7
@@ -4537,8 +4537,8 @@ packages:
       boolbase: 1.0.0
     dev: false
 
-  /nx/15.1.0:
-    resolution: {integrity: sha512-iAOFcX27vuvKTPE0JE8VfIZtWqJqZJ0259wmAGKH31J5yCAUfMl1wbzOcfutLaNKKYS25uq3ZOD7pc+J/P9Bvg==}
+  /nx/15.1.1:
+    resolution: {integrity: sha512-afwLiY25+wCK7NR1lGVn2nIJRSqOmcJqJxWsz1A2FJJaHXogF4ja0USgjDksxXQGfKsbOyOq4Wvzel1YhtuaoQ==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -4550,8 +4550,8 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/cli': 15.1.0
-      '@nrwl/tao': 15.1.0
+      '@nrwl/cli': 15.1.1
+      '@nrwl/tao': 15.1.1
       '@parcel/watcher': 2.0.4
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.20
