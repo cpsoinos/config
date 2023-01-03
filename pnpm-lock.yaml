@@ -11,7 +11,7 @@ importers:
       '@cpsoinos/prettier-config': workspace:*
       '@nrwl/nx-cloud': latest
       '@nrwl/workspace': 15.4.2
-      husky: 8.0.2
+      husky: 8.0.3
       nx: 15.4.2
       prettier: 2.8.1
       ts-node: 10.9.1
@@ -24,7 +24,7 @@ importers:
       '@cpsoinos/prettier-config': link:packages/prettier
       '@nrwl/nx-cloud': 15.0.2
       '@nrwl/workspace': 15.4.2_2gbcgqmzq2pxiocqw2qs7hdeqe
-      husky: 8.0.2
+      husky: 8.0.3
       nx: 15.4.2
       prettier: 2.8.1
       ts-node: 10.9.1_edw5nuodpsvgvt5l2dfu4qnm6e
@@ -2534,8 +2534,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/8.0.2:
-    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
