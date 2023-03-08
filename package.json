@@ -1,6 +1,6 @@
 {
   "name": "@cpsoinos/eslint-config",
-  "packageManager": "pnpm@7.29.0",
+  "packageManager": "pnpm@7.29.1",
   "scripts": {
     "commit": "commit",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
