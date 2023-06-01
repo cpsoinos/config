@@ -11,9 +11,9 @@
   },
   "devDependencies": {
     "@changesets/cli": "2.26.1",
-    "@commitlint/cli": "17.6.3",
-    "@commitlint/config-conventional": "17.6.3",
-    "@commitlint/prompt-cli": "17.6.3",
+    "@commitlint/cli": "17.6.5",
+    "@commitlint/config-conventional": "17.6.5",
+    "@commitlint/prompt-cli": "17.6.5",
     "@cpsoinos/prettier-config": "workspace:*",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "15.9.4",
