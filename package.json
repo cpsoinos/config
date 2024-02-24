@@ -1,26 +1,38 @@
 {
   "name": "@cpsoinos/eslint-config",
-  "packageManager": "pnpm@8.15.4",
   "scripts": {
+    "ci:format": "prettier --write --check --no-error-on-unmatched-pattern \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
+    "ci:publish": "changeset publish",
+    "ci:version": "changeset version",
     "commit": "commit",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
-    "ci:format": "prettier --write --check --no-error-on-unmatched-pattern \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
-    "ci:version": "changeset version",
-    "ci:publish": "changeset publish",
-    "prepare": "husky install"
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "package.json": [
+      "npx sort-package-json"
+    ],
+    "*.{js,jsx,ts,tsx,cjs,mjs,cts,mts}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,postcss,json,html,md,yml}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
     "@changesets/cli": "2.27.1",
     "@commitlint/cli": "18.6.1",
     "@commitlint/config-conventional": "18.6.2",
-    "@commitlint/prompt-cli": "18.6.1",
     "@cpsoinos/prettier-config": "workspace:*",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "18.0.5",
-    "husky": "8.0.3",
+    "husky": "9.0.11",
+    "lint-staged": "^15.2.2",
     "nx": "18.0.5",
     "prettier": "3.2.5",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
-  }
+  },
+  "packageManager": "pnpm@8.15.4"
 }

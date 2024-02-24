@@ -2,20 +2,17 @@
   "name": "@cpsoinos/eslint-config-typescript",
   "version": "0.2.3",
   "description": "TypeScript ESLint config",
-  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "homepage": "",
-  "license": "MIT",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cpsoinos/config.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "license": "MIT",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
@@ -32,5 +29,8 @@
   },
   "peerDependencies": {
     "typescript": "^4.4.3 || ^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
