@@ -34,7 +34,7 @@ jobs:
         run: pnpm install
 
       - name: ESLint
-        run: pnpm nx affected --target=lint --parallel
+        run: pnpm nx run-many --target=lint --parallel
 
   prettier:
     name: Prettier
@@ -62,4 +62,4 @@ jobs:
         run: pnpm install
 
       - name: Prettier
-        run: pnpm nx affected --target=ci:format --parallel
+        run: pnpm nx run-many --target=ci:format --parallel
