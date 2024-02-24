@@ -24,7 +24,6 @@
     "@changesets/cli": "2.27.1",
     "@commitlint/cli": "18.6.1",
     "@commitlint/config-conventional": "18.6.2",
-    "@commitlint/prompt-cli": "18.6.1",
     "@cpsoinos/prettier-config": "workspace:*",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "18.0.5",
