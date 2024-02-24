@@ -1,5 +1,12 @@
 # @cpsoinos/eslint-config-typescript
 
+## 0.2.5
+
+### Patch Changes
+
+- Updated dependencies [5d36904]
+  - @cpsoinos/eslint-config-base@0.2.3
+
 ## 0.2.4
 
 ### Patch Changes
