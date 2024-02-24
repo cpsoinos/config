@@ -10,7 +10,7 @@
   },
   "lint-staged": {
     "package.json": [
-      "npx sort-package-json"
+      "npx sort-package-json \"package.json\" \"packages/*/package.json\""
     ],
     "*.{js,jsx,ts,tsx,cjs,mjs,cts,mts}": [
       "eslint --fix",
