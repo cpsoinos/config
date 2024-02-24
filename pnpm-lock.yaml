@@ -17,6 +17,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: 18.6.2
         version: 18.6.2
+      '@cpsoinos/eslint-config-base':
+        specifier: workspace:*
+        version: link:packages/base
       '@cpsoinos/prettier-config':
         specifier: workspace:*
         version: link:packages/prettier

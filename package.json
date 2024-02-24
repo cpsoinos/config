@@ -6,6 +6,8 @@
     "ci:version": "changeset version",
     "commit": "commit",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts",
+    "lint:fix": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -24,6 +26,7 @@
     "@changesets/cli": "2.27.1",
     "@commitlint/cli": "18.6.1",
     "@commitlint/config-conventional": "18.6.2",
+    "@cpsoinos/eslint-config-base": "workspace:*",
     "@cpsoinos/prettier-config": "workspace:*",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "18.0.5",
