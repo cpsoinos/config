@@ -1,5 +1,5 @@
 ---
-'@cpsoinos/prettier-config': minor
+'@cpsoinos/prettier-config': major
 ---
 
 update printWidth, trailingComma, and vueIndentScriptAndStyle
