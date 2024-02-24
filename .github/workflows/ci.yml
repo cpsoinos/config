@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -41,7 +41,7 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -63,3 +63,17 @@ jobs:
 
       - name: Prettier
         run: pnpm nx run-many --target=ci:format --parallel
+
+  changeset:
+    name: Changeset
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create/Update Changesets
+        uses: 'the-guild-org/changesets-dependencies-action@v1.2.2'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
