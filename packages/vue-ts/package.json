@@ -18,7 +18,7 @@
   "dependencies": {
     "@cpsoinos/eslint-config-typescript": "workspace:*",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-vue": "^9.0.0"
+    "eslint-plugin-vue": "^9.22.0"
   },
   "devDependencies": {
     "eslint": "8.57.0"

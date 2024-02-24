@@ -17,13 +17,13 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-markdown": "^3.0.1",
     "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-yml": "^1.0.0",
-    "yaml-eslint-parser": "^1.0.0"
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-yml": "^1.12.2",
+    "yaml-eslint-parser": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "8.57.0"
