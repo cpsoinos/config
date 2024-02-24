@@ -1,21 +1,18 @@
 {
   "name": "@cpsoinos/eslint-config-base",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Base shared ESLint config",
-  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "homepage": "",
-  "license": "MIT",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cpsoinos/config.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "license": "MIT",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
@@ -33,5 +30,8 @@
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
