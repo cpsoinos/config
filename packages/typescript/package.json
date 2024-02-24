@@ -2,35 +2,35 @@
   "name": "@cpsoinos/eslint-config-typescript",
   "version": "0.2.3",
   "description": "TypeScript ESLint config",
-  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "homepage": "",
-  "license": "MIT",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cpsoinos/config.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "license": "MIT",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
     "@cpsoinos/eslint-config-base": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-import-resolver-typescript": "^3.0.0",
-    "eslint-plugin-typescript-sort-keys": "^3.0.0"
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-typescript-sort-keys": "^3.1.0"
   },
   "devDependencies": {
     "eslint": "8.57.0"
   },
   "peerDependencies": {
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3 || ^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

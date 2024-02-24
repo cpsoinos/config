@@ -2,20 +2,17 @@
   "name": "@cpsoinos/eslint-config-react-ts",
   "version": "0.2.1",
   "description": "React ESLint config",
-  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "homepage": "",
-  "license": "MIT",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cpsoinos/config.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "license": "MIT",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
@@ -28,6 +25,9 @@
   "devDependencies": {
     "eslint": "8.57.0",
     "react": "18.2.0",
-    "typescript": "4.9.5"
+    "typescript": "5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
