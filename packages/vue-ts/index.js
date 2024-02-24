@@ -1,24 +1,24 @@
 module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   overrides: [
     {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: {
-        parser: '@typescript-eslint/parser'
-      }
-    }
+        parser: '@typescript-eslint/parser',
+      },
+    },
   ],
   extends: [
     '@cpsoinos/eslint-config-typescript',
     'plugin:vue/vue3-recommended',
-    'prettier' // must be last
+    'prettier', // must be last
   ],
   env: {
-    'vue/setup-compiler-macros': true
+    'vue/setup-compiler-macros': true,
   },
   rules: {
     'vue/no-v-html': 'off',
@@ -26,8 +26,8 @@ module.exports = {
     'vue/component-tags-order': [
       'error',
       {
-        order: ['script', 'template', 'style']
-      }
-    ]
-  }
+        order: ['script', 'template', 'style'],
+      },
+    ],
+  },
 }

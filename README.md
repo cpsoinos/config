@@ -27,8 +27,8 @@ pnpm add @cpsoinos/eslint-config-typescript -D
 ```js
 module.exports = {
   extends: [
-    '@cpsoinos/eslint-config-typescript' // or '@cpsoinos/eslint-config-react-ts'
-  ]
+    '@cpsoinos/eslint-config-typescript', // or '@cpsoinos/eslint-config-react-ts'
+  ],
 }
 ```
 
