@@ -2,9 +2,9 @@
   "name": "@cpsoinos/prettier-config",
   "version": "0.0.0",
   "description": "Prettier config",
-  "homepage": "https://github.com/PrimaryKids/eslint-config#readme",
+  "homepage": "https://github.com/cpsoinos/config#readme",
   "bugs": {
-    "url": "https://github.com/PrimaryKids/eslint-config/issues"
+    "url": "https://github.com/cpsoinos/config/issues"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,8 @@
   "license": "ISC",
   "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib"
+    "index.js"
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
