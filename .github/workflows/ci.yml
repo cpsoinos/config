@@ -65,6 +65,7 @@ jobs:
         run: pnpm nx run-many --target=ci:format --parallel
 
   changeset:
+    name: Changeset
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
