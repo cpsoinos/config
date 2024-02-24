@@ -1,6 +1,6 @@
 {
   "name": "@cpsoinos/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Prettier config",
   "homepage": "https://github.com/cpsoinos/config#readme",
   "bugs": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/cpsoinos/config.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "main": "index.js",
   "files": [
