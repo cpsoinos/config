@@ -11,6 +11,6 @@ jobs:
           fetch-depth: 0
 
       - name: Create/Update Changesets
-        uses: cpsoinos/changesets-dependencies-action@coerce-version-link
+        uses: 'the-guild-org/changesets-dependencies-action@v1.1.0'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
