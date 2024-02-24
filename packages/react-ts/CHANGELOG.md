@@ -1,14 +1,5 @@
 # @cpsoinos/eslint-config-react-ts
 
-## 0.2.3
-
-### Patch Changes
-
-- 5d36904: dependencies updates:
-  - Updated dependency [`eslint-plugin-react@^7.33.2` ↗︎](https://www.npmjs.com/package/eslint-plugin-react/v/7.33.2) (from `^7.26.1`, in `dependencies`)
-  - Updated dependency [`eslint-plugin-react-hooks@^4.6.0` ↗︎](https://www.npmjs.com/package/eslint-plugin-react-hooks/v/4.6.0) (from `^4.2.0`, in `dependencies`)
-  - @cpsoinos/eslint-config-typescript@0.2.5
-
 ## 0.2.2
 
 ### Patch Changes
