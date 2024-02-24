@@ -85,8 +85,8 @@ importers:
         specifier: workspace:*
         version: link:../typescript
       eslint-config-prettier:
-        specifier: ^8.5.0
-        version: 8.5.0(eslint@8.57.0)
+        specifier: ^9.0.0
+        version: 9.1.0(eslint@8.57.0)
       eslint-plugin-react:
         specifier: ^7.26.1
         version: 7.29.4(eslint@8.57.0)
@@ -116,8 +116,8 @@ importers:
         specifier: ^5.1.0
         version: 5.22.0(eslint@8.57.0)(typescript@4.8.2)
       eslint-config-prettier:
-        specifier: ^8.5.0
-        version: 8.5.0(eslint@8.57.0)
+        specifier: ^9.0.0
+        version: 9.1.0(eslint@8.57.0)
       eslint-import-resolver-typescript:
         specifier: ^3.0.0
         version: 3.5.0(eslint-plugin-import@2.26.0)(eslint@8.57.0)
@@ -138,8 +138,8 @@ importers:
         specifier: workspace:*
         version: link:../typescript
       eslint-config-prettier:
-        specifier: ^8.5.0
-        version: 8.5.0(eslint@8.57.0)
+        specifier: ^9.0.0
+        version: 9.1.0(eslint@8.57.0)
       eslint-plugin-vue:
         specifier: ^9.0.0
         version: 9.4.0(eslint@8.57.0)
@@ -1770,8 +1770,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  /eslint-config-prettier@8.5.0(eslint@8.57.0):
-    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+  /eslint-config-prettier@9.1.0(eslint@8.57.0):
+    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
