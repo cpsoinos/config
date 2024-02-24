@@ -1,5 +1,12 @@
 # @cpsoinos/eslint-config-base
 
+## 0.2.2
+
+### Patch Changes
+
+- a34ff23: dependencies updates:
+  - Updated dependency [`eslint-plugin-n@^16.0.0` ↗︎](https://www.npmjs.com/package/eslint-plugin-n/v/16.0.0) (from `^15.2.0`, in `dependencies`)
+
 ## 0.2.1
 
 ### Patch Changes

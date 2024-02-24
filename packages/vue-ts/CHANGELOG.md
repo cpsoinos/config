@@ -1,5 +1,16 @@
 # @cpsoinos/eslint-config-vue-ts
 
+## 0.1.2
+
+### Patch Changes
+
+- 7695189: dependencies updates:
+  - Updated dependency [`eslint-config-prettier@^9.0.0` ↗︎](https://www.npmjs.com/package/eslint-config-prettier/v/9.0.0) (from `^8.5.0`, in `dependencies`)
+- Updated dependencies [7416525]
+- Updated dependencies [7695189]
+- Updated dependencies [ee5143a]
+  - @cpsoinos/eslint-config-typescript@0.2.4
+
 ## 0.1.1
 
 ### Patch Changes

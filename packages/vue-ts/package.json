@@ -1,20 +1,17 @@
 {
   "name": "@cpsoinos/eslint-config-vue-ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue + TS ESLint config",
-  "main": "index.js",
-  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
-  "license": "ISC",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cpsoinos/config.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "license": "ISC",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
@@ -25,5 +22,8 @@
   },
   "devDependencies": {
     "eslint": "8.57.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
