@@ -122,8 +122,8 @@ importers:
         specifier: ^3.0.0
         version: 3.5.0(eslint-plugin-import@2.26.0)(eslint@8.57.0)
       eslint-plugin-typescript-sort-keys:
-        specifier: ^2.1.0
-        version: 2.1.0(@typescript-eslint/parser@5.22.0)(eslint@8.57.0)(typescript@4.8.2)
+        specifier: ^3.0.0
+        version: 3.1.0(@typescript-eslint/parser@5.22.0)(eslint@8.57.0)(typescript@4.8.2)
       typescript:
         specifier: ^4.4.3
         version: 4.8.2
@@ -1961,13 +1961,13 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: false
 
-  /eslint-plugin-typescript-sort-keys@2.1.0(@typescript-eslint/parser@5.22.0)(eslint@8.57.0)(typescript@4.8.2):
-    resolution: {integrity: sha512-ET7ABypdz19m47QnKynzNfWPi4CTNQ5jQQC1X5d0gojIwblkbGiCa5IilsqzBTmqxZ0yXDqKBO/GBkBFQCOFsg==}
-    engines: {node: 10 - 12 || >= 13.9}
+  /eslint-plugin-typescript-sort-keys@3.1.0(@typescript-eslint/parser@5.22.0)(eslint@8.57.0)(typescript@4.8.2):
+    resolution: {integrity: sha512-rgZeYfEguqKni/V7sbmgFu9/94UDAQd7YqNd0J7Qhw7SdLIGd0iBk2KgpjhRhe2ge4rPSLDIdFWwUiDqBOst6Q==}
+    engines: {node: '>= 16'}
     peerDependencies:
-      '@typescript-eslint/parser': ^1 || ^2 || ^3 || ^4 || ^5
-      eslint: ^5 || ^6 || ^7 || ^8
-      typescript: ^3 || ^4
+      '@typescript-eslint/parser': ^6
+      eslint: ^7 || ^8
+      typescript: ^3 || ^4 || ^5
     dependencies:
       '@typescript-eslint/experimental-utils': 5.22.0(eslint@8.57.0)(typescript@4.8.2)
       '@typescript-eslint/parser': 5.22.0(eslint@8.57.0)(typescript@4.8.2)
@@ -3206,7 +3206,7 @@ packages:
     dev: true
 
   /natural-compare-lite@1.4.0:
-    resolution: {integrity: sha1-F7CVgZiJef3a/gIB6TG6kzyWy7Q=}
+    resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
     dev: false
 
   /natural-compare@1.4.0:
