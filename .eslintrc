@@ -1,3 +1,3 @@
 {
-  "extends": "@cpsoinos/eslint-config-base"
+  "extends": "@cpsoinos/eslint-config-typescript",
 }
