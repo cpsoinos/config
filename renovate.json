@@ -8,5 +8,6 @@
       "automerge": true
     }
   ],
-  "labels": ["dependencies"]
+  "labels": ["dependencies"],
+  "gitIgnoredAuthors": ["github-actions[bot]@users.noreply.github.com"]
 }
