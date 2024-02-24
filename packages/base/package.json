@@ -14,7 +14,7 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint ."
   },
   "dependencies": {
     "eslint-config-standard": "^17.1.0",

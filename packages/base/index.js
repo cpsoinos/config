@@ -4,20 +4,20 @@ module.exports = {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
     ecmaFeatures: {
-      jsx: true // Allows for the parsing of JSX
-    }
+      jsx: true, // Allows for the parsing of JSX
+    },
   },
   extends: [
     'standard', // https://standardjs.com style guide
     'eslint:recommended',
     'plugin:import/recommended',
     'plugin:yml/standard',
-    'plugin:markdown/recommended'
+    'plugin:markdown/recommended',
   ],
   env: {
     node: true,
     browser: true,
-    es6: true
+    es6: true,
   },
   ignorePatterns: [
     '*.min.*',
@@ -34,7 +34,7 @@ module.exports = {
     '__snapshots__',
     '!.github',
     '!.vitepress',
-    '!.vscode'
+    '!.vscode',
   ],
   rules: {
     // change to standardjs.com rules: prefer *no* space btw named function and argument parens
@@ -43,8 +43,8 @@ module.exports = {
       {
         anonymous: 'always',
         named: 'never',
-        asyncArrow: 'always'
-      }
+        asyncArrow: 'always',
+      },
     ],
     'no-console': 'off',
     'no-process-env': 0,
@@ -54,7 +54,7 @@ module.exports = {
     // import
     'import/order': 'error',
     'import/first': 'error',
-    'import/no-unresolved': 'off'
+    'import/no-unresolved': 'off',
   },
-  plugins: ['import']
+  plugins: ['import'],
 }

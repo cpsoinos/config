@@ -3,14 +3,14 @@ module.exports = {
     '@cpsoinos/eslint-config-typescript',
     'plugin:react/recommended', // react-specific rules
     'plugin:react-hooks/recommended',
-    'prettier' // must be last
+    'prettier', // must be last
   ],
   env: {
-    browser: 1
+    browser: 1,
   },
   settings: {
     react: {
-      version: 'detect'
-    }
-  }
+      version: 'detect',
+    },
+  },
 }
