@@ -16,9 +16,9 @@
     "@commitlint/prompt-cli": "18.6.1",
     "@cpsoinos/prettier-config": "workspace:*",
     "@nrwl/nx-cloud": "latest",
-    "@nrwl/workspace": "15.9.7",
+    "@nrwl/workspace": "18.0.5",
     "husky": "8.0.3",
-    "nx": "15.9.7",
+    "nx": "18.0.5",
     "prettier": "3.2.5",
     "ts-node": "10.9.2",
     "typescript": "4.9.5"
