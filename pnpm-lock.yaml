@@ -67,7 +67,7 @@ importers:
         version: 6.1.1(eslint@8.57.0)
       eslint-plugin-yml:
         specifier: ^1.12.2
-        version: 1.13.1(eslint@8.57.0)
+        version: 1.14.0(eslint@8.57.0)
       yaml-eslint-parser:
         specifier: ^1.2.2
         version: 1.2.2
@@ -2344,8 +2344,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-yml@1.13.1(eslint@8.57.0):
-    resolution: {integrity: sha512-J1gNca5cWUIlo6ilQJBlPwap2ggVuc7gaOxiCdYjmncyWN8aNHErEhk2ICFj6shr8Jz27c3AU1Ie7i6HqVa4Hw==}
+  /eslint-plugin-yml@1.14.0(eslint@8.57.0):
+    resolution: {integrity: sha512-ESUpgYPOcAYQO9czugcX5OqRvn/ydDVwGCPXY4YjPqc09rHaUVUA6IE6HLQys4rXk/S+qx3EwTd1wHCwam/OWQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
