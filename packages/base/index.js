@@ -12,6 +12,7 @@ module.exports = {
     'standard', // https://standardjs.com style guide
     'eslint:recommended',
     'plugin:import-x/recommended',
+    'plugin:promise/recommended',
     'plugin:yml/standard',
     'plugin:markdown/recommended',
   ],
