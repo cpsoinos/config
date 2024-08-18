@@ -28,7 +28,6 @@
     "@commitlint/config-conventional": "19.2.2",
     "@cpsoinos/eslint-config-typescript": "workspace:*",
     "@cpsoinos/prettier-config": "workspace:*",
-    "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "19.6.0",
     "husky": "9.1.4",
     "lint-staged": "^15.2.2",
