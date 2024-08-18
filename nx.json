@@ -1,16 +1,13 @@
 {
   "extends": "nx/presets/npm.json",
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "@nrwl/nx-cloud",
-      "options": {
-        "cacheableOperations": ["lint", "test"],
-        "accessToken": "ZjM3OGU3OTktZmMwNC00Y2U3LTgxZjEtNzYyMTgwMTEzZjcyfHJlYWQtd3JpdGU="
-      }
+  "targetDefaults": {
+    "lint": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
     }
   },
-  "targetDefaults": {},
-  "affected": {
-    "defaultBase": "main"
-  }
+  "nxCloudAccessToken": "ZjM3OGU3OTktZmMwNC00Y2U3LTgxZjEtNzYyMTgwMTEzZjcyfHJlYWQtd3JpdGU=",
+  "defaultBase": "main"
 }
