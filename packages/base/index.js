@@ -7,10 +7,11 @@ module.exports = {
       jsx: true, // Allows for the parsing of JSX
     },
   },
+  plugins: ['unused-imports'],
   extends: [
     'standard', // https://standardjs.com style guide
     'eslint:recommended',
-    'plugin:import/recommended',
+    'plugin:import-x/recommended',
     'plugin:yml/standard',
     'plugin:markdown/recommended',
   ],
@@ -51,10 +52,17 @@ module.exports = {
     'no-var': 'error', // use let or const instead of var
     camelcase: 'off',
 
+    'unused-imports/no-unused-imports': 'error',
+
     // import
-    'import/order': 'error',
-    'import/first': 'error',
-    'import/no-unresolved': 'off',
+    'import-x/order': [
+      'warn',
+      {
+        alphabetize: { order: 'asc' },
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
+      },
+    ],
+    'import-x/newline-after-import': 'error',
+    'import-x/no-useless-path-segments': 'error',
   },
-  plugins: ['import'],
 }
