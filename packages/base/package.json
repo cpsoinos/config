@@ -1,6 +1,6 @@
 {
   "name": "@cpsoinos/eslint-config-base",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Base shared ESLint config",
   "homepage": "",
   "repository": {
