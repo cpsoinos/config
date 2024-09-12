@@ -28,10 +28,10 @@
     "@commitlint/config-conventional": "19.5.0",
     "@cpsoinos/eslint-config-typescript": "workspace:*",
     "@cpsoinos/prettier-config": "workspace:*",
-    "@nrwl/workspace": "19.7.2",
+    "@nrwl/workspace": "19.7.3",
     "husky": "9.1.6",
     "lint-staged": "^15.2.2",
-    "nx": "19.7.2",
+    "nx": "19.7.3",
     "prettier": "3.3.3",
     "ts-node": "10.9.2",
     "typescript": "5.6.2"
