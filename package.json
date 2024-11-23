@@ -31,7 +31,7 @@
     "@nrwl/workspace": "19.8.4",
     "husky": "9.1.7",
     "lint-staged": "^15.2.2",
-    "nx": "19.8.11",
+    "nx": "19.8.12",
     "prettier": "3.3.3",
     "ts-node": "10.9.2",
     "typescript": "5.7.2"
