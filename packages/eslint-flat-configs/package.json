@@ -1,0 +1,40 @@
+{
+  "name": "@cpsoinos/eslint-flat-configs",
+  "version": "0.0.0",
+  "description": "Opinionated flat eslint configs",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpsoinos/config.git"
+  },
+  "license": "MIT",
+  "author": "Corey Psoinos <coreypsoinos@gmail.com>",
+  "type": "module",
+  "exports": {
+    "./base": "./src/base.ts"
+  },
+  "scripts": {
+    "lint": "eslint --flag unstable_ts_config",
+    "lint:fix": "eslint --flag unstable_ts_config --fix"
+  },
+  "dependencies": {
+    "@eslint/js": "9.16.0",
+    "@typescript-eslint/parser": "8.16.0",
+    "eslint-plugin-import-x": "4.4.3",
+    "eslint-plugin-unicorn": "56.0.1",
+    "eslint-plugin-unused-imports": "4.1.4",
+    "globals": "15.12.0",
+    "typescript-eslint": "8.16.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/types": "8.16.0",
+    "@typescript-eslint/utils": "8.16.0",
+    "eslint": "9.16.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

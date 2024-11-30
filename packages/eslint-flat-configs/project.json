@@ -1,0 +1,4 @@
+{
+  "name": "eslint-flat-configs",
+  "$schema": "../node_modules/nx/schemas/project-schema.json"
+}
