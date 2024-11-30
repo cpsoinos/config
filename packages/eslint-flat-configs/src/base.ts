@@ -4,11 +4,11 @@ import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import unusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
-import tseslint from 'typescript-eslint'
+import { config as tsEslintConfig, configs as tsEslintConfigs } from 'typescript-eslint'
 
-export default tseslint.config(
+export default tsEslintConfig(
   js.configs.recommended,
-  tseslint.configs.recommendedTypeChecked,
+  tsEslintConfigs.recommendedTypeChecked,
   {
     languageOptions: {
       parserOptions: {
@@ -18,7 +18,7 @@ export default tseslint.config(
   },
   {
     files: ['**/*.js'],
-    extends: [tseslint.configs.disableTypeChecked],
+    extends: [tsEslintConfigs.disableTypeChecked],
   },
 
   {
