@@ -13,9 +13,7 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "lint": "eslint ."
-  },
+  "scripts": {},
   "dependencies": {
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import-x": "^3.1.0",
