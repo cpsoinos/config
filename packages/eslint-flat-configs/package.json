@@ -24,11 +24,11 @@
     "eslint-plugin-unicorn": "56.0.1",
     "eslint-plugin-unused-imports": "4.1.4",
     "globals": "15.13.0",
-    "typescript-eslint": "8.16.0"
+    "typescript-eslint": "8.18.0"
   },
   "devDependencies": {
-    "@typescript-eslint/types": "8.16.0",
-    "@typescript-eslint/utils": "8.16.0",
+    "@typescript-eslint/types": "8.18.0",
+    "@typescript-eslint/utils": "8.18.0",
     "eslint": "9.16.0"
   },
   "peerDependencies": {
