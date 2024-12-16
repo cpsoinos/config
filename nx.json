@@ -9,5 +9,13 @@
     }
   },
   "nxCloudAccessToken": "ZjM3OGU3OTktZmMwNC00Y2U3LTgxZjEtNzYyMTgwMTEzZjcyfHJlYWQtd3JpdGU=",
-  "defaultBase": "main"
+  "defaultBase": "main",
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ]
 }

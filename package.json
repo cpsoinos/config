@@ -29,6 +29,7 @@
     "@cpsoinos/eslint-flat-configs": "workspace:*",
     "@cpsoinos/prettier-config": "workspace:*",
     "@nrwl/workspace": "19.8.4",
+    "@nx/eslint": "19.8.14",
     "eslint": "^9.16.0",
     "husky": "9.1.7",
     "lint-staged": "^15.2.2",

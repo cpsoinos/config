@@ -34,7 +34,7 @@ jobs:
         run: pnpm install
 
       - name: ESLint
-        run: pnpm run lint
+        run: 'pnpm exec nx run @cpsoinos/config:lint'
 
   prettier:
     name: Prettier
@@ -62,7 +62,7 @@ jobs:
         run: pnpm install
 
       - name: Prettier
-        run: pnpm run ci:format
+        run: 'pnpm exec nx run @cpsoinos/config:format'
 
   changeset:
     name: Changeset
