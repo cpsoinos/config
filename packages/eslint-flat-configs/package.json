@@ -22,7 +22,7 @@
     "build": "tsup ./src --format esm,cjs --dts",
     "lint": "eslint --flag unstable_ts_config",
     "lint:fix": "eslint --flag unstable_ts_config --fix",
-    "prepublish": "build"
+    "prepublish": "pnpm run build"
   },
   "dependencies": {
     "@eslint/js": "9.16.0",
