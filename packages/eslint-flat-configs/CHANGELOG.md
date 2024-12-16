@@ -1,5 +1,11 @@
 # @cpsoinos/eslint-flat-configs
 
+## 1.1.0
+
+### Minor Changes
+
+- f919ef9: define files in package.json
+
 ## 1.0.1
 
 ### Patch Changes
