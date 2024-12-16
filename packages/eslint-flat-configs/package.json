@@ -12,9 +12,9 @@
   "type": "module",
   "exports": {
     "./base": {
+      "types": "./dist/base.d.ts",
       "import": "./dist/base.js",
-      "require": "./dist/base.cjs",
-      "types": "./dist/base.d.ts"
+      "require": "./dist/base.cjs"
     }
   },
   "types": "./dist/base.d.ts",
