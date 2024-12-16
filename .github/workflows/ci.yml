@@ -37,7 +37,7 @@ jobs:
         run: pnpm nx reset
 
       - name: ESLint
-        run: 'pnpm nx run @cpsoinos/config:lint'
+        run: 'pnpm nx run @cpsoinos/config:lint --verbose'
 
       - name: Prettier
         run: 'pnpm nx run @cpsoinos/config:ci:format'
