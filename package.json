@@ -1,5 +1,6 @@
 {
   "name": "@cpsoinos/config",
+  "type": "module",
   "scripts": {
     "ci:format": "prettier --write --check --no-error-on-unmatched-pattern \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
     "ci:publish": "changeset publish",
