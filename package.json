@@ -1,6 +1,5 @@
 {
   "name": "@cpsoinos/config",
-  "type": "module",
   "scripts": {
     "ci:format": "prettier --write --check --no-error-on-unmatched-pattern \"**/*.{js,jsx,ts,tsx,vue,md,mdx,gql,graphql,json,yml,yaml}\"",
     "ci:publish": "changeset publish",
@@ -30,7 +29,6 @@
     "@cpsoinos/eslint-flat-configs": "workspace:*",
     "@cpsoinos/prettier-config": "workspace:*",
     "@nrwl/workspace": "19.8.4",
-    "@nx/eslint": "19.8.14",
     "eslint": "^9.16.0",
     "husky": "9.1.7",
     "lint-staged": "^15.2.2",

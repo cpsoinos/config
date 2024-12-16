@@ -1,4 +1,4 @@
-import base from '@cpsoinos/eslint-flat-configs/base'
+import base from './packages/eslint-flat-configs/src/base'
 
 export default [
   ...base,

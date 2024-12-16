@@ -9,13 +9,5 @@
     }
   },
   "defaultBase": "main",
-  "plugins": [
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    }
-  ],
   "nxCloudId": "62c218e8fa3e7634748d7080"
 }

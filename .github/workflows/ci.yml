@@ -33,14 +33,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Reset NX
-        run: pnpm nx reset
-
       - name: ESLint
-        run: 'pnpm nx run @cpsoinos/config:lint --verbose'
+        run: 'pnpm run lint'
 
       - name: Prettier
-        run: 'pnpm nx run @cpsoinos/config:ci:format'
+        run: 'pnpm run ci:format'
 
   changeset:
     name: Changeset
