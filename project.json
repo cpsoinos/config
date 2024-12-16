@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/nx/schemas/project-schema.json",
+  "implicitDependencies": ["eslint-flat-configs"],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "options": {
+        "lintFilePatterns": ["packages/**/*.ts", "packages/**/*.js"],
+        "eslintConfig": "./eslint.config.js"
+      },
+      "dependsOn": [
+        {
+          "dependencies": true,
+          "target": "build"
+        }
+      ]
+    }
+  }
+}

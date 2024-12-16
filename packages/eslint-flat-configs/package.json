@@ -11,11 +11,18 @@
   "author": "Corey Psoinos <coreypsoinos@gmail.com>",
   "type": "module",
   "exports": {
-    "./base": "./src/base.ts"
+    "./base": {
+      "import": "./dist/base.js",
+      "require": "./dist/base.cjs",
+      "types": "./dist/base.d.ts"
+    }
   },
+  "types": "./dist/base.d.ts",
   "scripts": {
+    "build": "tsup ./src --format esm,cjs --dts",
     "lint": "eslint --flag unstable_ts_config",
-    "lint:fix": "eslint --flag unstable_ts_config --fix"
+    "lint:fix": "eslint --flag unstable_ts_config --fix",
+    "prepublish": "build"
   },
   "dependencies": {
     "@eslint/js": "9.16.0",
@@ -29,7 +36,9 @@
   "devDependencies": {
     "@typescript-eslint/types": "8.16.0",
     "@typescript-eslint/utils": "8.16.0",
-    "eslint": "9.16.0"
+    "eslint": "9.16.0",
+    "tsup": "^8.3.5",
+    "typescript": "5.7.2"
   },
   "peerDependencies": {
     "eslint": "^9"

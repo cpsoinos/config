@@ -6,7 +6,7 @@ import unusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
 import { config as tsEslintConfig, configs as tsEslintConfigs } from 'typescript-eslint'
 
-export default tsEslintConfig(
+const base: ReturnType<typeof tsEslintConfig> = tsEslintConfig(
   js.configs.recommended,
   tsEslintConfigs.recommendedTypeChecked,
   {
@@ -121,3 +121,5 @@ export default tsEslintConfig(
     ],
   },
 )
+
+export default base
