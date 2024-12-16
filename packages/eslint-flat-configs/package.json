@@ -18,6 +18,9 @@
     }
   },
   "types": "./dist/base.d.ts",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "tsup ./src --format esm,cjs --dts",
     "lint": "eslint --flag unstable_ts_config",
