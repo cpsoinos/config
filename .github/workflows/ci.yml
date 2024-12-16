@@ -34,7 +34,7 @@ jobs:
         run: pnpm install
 
       - name: Reset NX
-        run: nx reset
+        run: pnpm nx reset
 
       - name: ESLint
         run: 'pnpm nx run @cpsoinos/config:lint'
