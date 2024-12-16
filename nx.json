@@ -8,7 +8,6 @@
       "cache": true
     }
   },
-  "nxCloudAccessToken": "ZjM3OGU3OTktZmMwNC00Y2U3LTgxZjEtNzYyMTgwMTEzZjcyfHJlYWQtd3JpdGU=",
   "defaultBase": "main",
   "plugins": [
     {
@@ -17,5 +16,6 @@
         "targetName": "lint"
       }
     }
-  ]
+  ],
+  "nxCloudId": "62c218e8fa3e7634748d7080"
 }
