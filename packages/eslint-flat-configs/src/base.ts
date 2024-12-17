@@ -1,5 +1,6 @@
 import js from '@eslint/js'
 import tsParser from '@typescript-eslint/parser'
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript'
 import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import unusedImports from 'eslint-plugin-unused-imports'
@@ -76,6 +77,37 @@ const base: ReturnType<typeof tsEslintConfig> = tsEslintConfig(
             'type',
           ],
         },
+      ],
+    },
+  },
+  {
+    settings: {
+      'import/resolver-next': [
+        createTypeScriptImportResolver({
+          alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+
+          // // Choose from one of the "project" configs below or omit to use <root>/tsconfig.json by default
+
+          // // use <root>/path/to/folder/tsconfig.json
+          // project: "path/to/folder",
+
+          // // Multiple tsconfigs (Useful for monorepos)
+
+          // // use a glob pattern
+          // project: "packages/*/tsconfig.json",
+
+          // // use an array
+          // project: [
+          //   "packages/module-a/tsconfig.json",
+          //   "packages/module-b/tsconfig.json"
+          // ],
+
+          // // use an array of glob patterns
+          // project: [
+          //   "packages/*/tsconfig.json",
+          //   "other-packages/*/tsconfig.json"
+          // ]
+        }),
       ],
     },
   },
