@@ -12,15 +12,25 @@
   },
   "license": "MIT",
   "author": "Corey Psoinos <coreypsoinos@gmail.com>",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "index.js"
+    "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "unbuild",
+    "prepack": "unbuild"
   },
   "devDependencies": {
-    "prettier": "3.4.2"
+    "prettier": "3.4.2",
+    "typescript": "5.7.2"
   },
   "publishConfig": {
     "access": "public"
