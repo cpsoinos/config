@@ -1,5 +1,11 @@
 # @cpsoinos/eslint-flat-configs
 
+## 1.2.0
+
+### Minor Changes
+
+- bb1c9fe: correctly configure eslint-plugin-import-x with eslint-import-resolver-typescript
+
 ## 1.1.0
 
 ### Minor Changes
