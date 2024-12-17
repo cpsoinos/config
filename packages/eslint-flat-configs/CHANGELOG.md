@@ -1,5 +1,11 @@
 # @cpsoinos/eslint-flat-configs
 
+## 2.0.0
+
+### Major Changes
+
+- 4c4fe7b: change build output so base is a named export
+
 ## 1.2.0
 
 ### Minor Changes
