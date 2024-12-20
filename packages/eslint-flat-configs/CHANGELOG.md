@@ -1,5 +1,11 @@
 # @cpsoinos/eslint-flat-configs
 
+## 2.2.0
+
+### Minor Changes
+
+- 86c9c2b: disable type-checked linting
+
 ## 2.1.0
 
 ### Minor Changes
