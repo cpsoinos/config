@@ -14,6 +14,7 @@ export const base: ReturnType<typeof tsEslintConfig> = tsEslintConfig(
     languageOptions: {
       parserOptions: {
         projectService: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
   },
