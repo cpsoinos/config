@@ -9,7 +9,7 @@ import { config as tsEslintConfig, configs as tsEslintConfigs } from 'typescript
 
 export const base: ReturnType<typeof tsEslintConfig> = tsEslintConfig(
   js.configs.recommended,
-  tsEslintConfigs.recommendedTypeChecked,
+  tsEslintConfigs.recommended,
   {
     languageOptions: {
       parserOptions: {
