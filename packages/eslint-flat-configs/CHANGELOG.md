@@ -1,5 +1,11 @@
 # @cpsoinos/eslint-flat-configs
 
+## 2.1.0
+
+### Minor Changes
+
+- 8e8cde9: specify tsconfigRootDir for type-checked linting
+
 ## 2.0.0
 
 ### Major Changes
